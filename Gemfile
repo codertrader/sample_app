@@ -17,7 +17,7 @@ group :test do
 end
 
 group :production do
-	gem 'pg' #for heroku
+# commented out this because herok rejected	gem 'pg' #for heroku
 end
 
 # Gems used only for assets and not required
