@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+source "http://gems.github.com"
 
 gem 'rails', '3.1.3'
 
@@ -9,6 +10,7 @@ gem 'sqlite3'
 
 group :development do
 	gem 'rspec-rails', '2.6.1' # for generating rspec stuff
+	gem 'annotate', '~> 2.4.1.beta'  # for annotating activerecord models
 end
 
 group :test do
