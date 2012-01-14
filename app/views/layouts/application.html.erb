@@ -8,6 +8,13 @@
   <body>
     <div class="container">
       <%= render 'layouts/header' %>
+      <% if flash.any? %> 
+      <section class="round">
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div> 
+	<% end %>
+      </section> 
+      <% end %> 
       <section class="round">
         <%= yield %>
       </section>
