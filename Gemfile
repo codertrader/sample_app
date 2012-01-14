@@ -7,6 +7,7 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'gravatar_image_tag', '0.1.0'
 
 group :development do
 	gem 'rspec-rails', '2.6.1' # for generating rspec stuff
